@@ -36,15 +36,18 @@ a:hover {
   color: #bababa;
 }
 
-.prev_next_button {
+.prev-next-button {
   background-color: #636363;
   color: #eaeaea;
   border-radius: 5px;
 }
 
 /* Some Line Divider Stuff */
+
 hr.no-space {
   margin-top: 0px;
   margin-bottom: 5px;
   color: #ffffff;
 }
+
+/* NAVIGATION */
