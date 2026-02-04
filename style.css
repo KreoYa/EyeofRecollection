@@ -1,9 +1,18 @@
 /* MAIN BODY FOR FANFICS */
 body {
-  margin: 5%;
-  padding: 5%;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  line-height: 1.3;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  line-height: 1.5;
   background-color: #333;
   color: #e2e2e2;
   font-size: normal;
@@ -12,6 +21,24 @@ body {
 p {
   margin-top: 5;
   margin-bottom: 15;
+}
+
+.work {
+  max-width: 123ch;
+  margin-inline: auto;
+  padding-inline: clamp(0.5rem, 4vw, 3rem);
+}
+
+.summary-note-line {
+  max-width: 110ch;
+  margin-inline: auto;
+  padding-inline: clamp(0.5rem, 4vw, 3rem);
+}
+
+.summary-note-p {
+  max-width: 108ch;
+  margin-inline: auto;
+  padding-inline: clamp(0.5rem, 4vw, 3rem);
 }
 
 /* HEADERS */
@@ -25,27 +52,34 @@ h3 {
 }
 
 h4 {
-  line-height: 0;
+  line-height: 0.5;
+  font-weight: normal;
+}
+
+.more-notes {
+  color: #ababab;
+}
+
+.more-notes:hover {
+  color: #545454;
 }
 
 /* BUTTONS */
-a {
+
+.prev-next-button {
+  background-color: #565656;
+  color: #eaeaea;
+  border-radius: 5px;
+  text-align: right;
   text-decoration: none;
   font-size: 85%;
   display: inline-block;
   padding: 5px 8px;
 }
 
-a:hover {
+.prev-next-button:hover {
   background-color: #2d2d2d;
   color: #bababa;
-}
-
-.prev-next-button {
-  background-color: #636363;
-  color: #eaeaea;
-  border-radius: 5px;
-  text-align: right;
 }
 
 /* Some Line Divider Stuff */
@@ -55,4 +89,3 @@ hr.no-space {
   margin-bottom: 5px;
   color: #ffffff;
 }
-
